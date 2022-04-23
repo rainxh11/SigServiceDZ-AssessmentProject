@@ -7,7 +7,7 @@ const routes: Array<RouteConfig> = [
   {
     path: '/',
     name: 'ContactsView',
-    component: () => import(/* webpackChunkName: "contact-view" */ '../views/ContactsView.vue')
+    component: () => import(/* webpackChunkName: "contacts-view" */ '../views/ContactsView.vue')
   },
   {
     path: '/contact/:id',

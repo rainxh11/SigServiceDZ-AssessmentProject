@@ -49,9 +49,9 @@ export default Vue.extend({
     } = useContactById(parseInt(router.currentRoute.params.id))
 
   return {
-    isFetching,
-    error,
-    contact 
+      isFetching,
+      error,
+      contact 
     }
   },
   methods:{

@@ -18,8 +18,8 @@
     </v-card-title>
     <v-row v-if="isFetching" >
       <v-skeleton-loader
-          v-for="index in 50" :key="index"
-          width="270"
+          v-for="index in 100" :key="index"
+          width="300"
           class="pa-2 mx-auto"
           type="card"
       ></v-skeleton-loader>
